@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build output
+dist/
+dist-ssr/
+*.local
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Reference repositories (avoid committing nested submodules / bloated folders)
+nowakkamil.github.io/
+portfolio/
+Portfolio-Website/
+fetch_github.py
+profile_readme.txt
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# System & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
